@@ -30,6 +30,13 @@
         {
             this.panel3 = new System.Windows.Forms.Panel();
             this.dtgvfBookList = new System.Windows.Forms.DataGridView();
+            this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.idCategory = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.releaseYear = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nameAuthor = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nameNXB = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.price = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.nbfBookListPrice = new System.Windows.Forms.NumericUpDown();
@@ -37,6 +44,8 @@
             this.cbBookListIdCategory = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.btfBookListDelete = new System.Windows.Forms.Button();
+            this.txtPic = new System.Windows.Forms.TextBox();
+            this.txtSl = new System.Windows.Forms.TextBox();
             this.txtBookListName = new System.Windows.Forms.TextBox();
             this.btfBookListChange = new System.Windows.Forms.Button();
             this.btfBookListRefresh = new System.Windows.Forms.Button();
@@ -52,13 +61,8 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.mnfRentList = new System.Windows.Forms.ToolStripMenuItem();
-            this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.idCategory = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.releaseYear = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nameAuthor = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nameNXB = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.price = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvfBookList)).BeginInit();
             this.panel2.SuspendLayout();
@@ -91,14 +95,68 @@
             this.dtgvfBookList.Size = new System.Drawing.Size(680, 244);
             this.dtgvfBookList.TabIndex = 0;
             // 
+            // id
+            // 
+            this.id.DataPropertyName = "id";
+            this.id.HeaderText = "Mã";
+            this.id.Name = "id";
+            this.id.Width = 30;
+            // 
+            // name
+            // 
+            this.name.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.name.DataPropertyName = "name";
+            this.name.HeaderText = "Tên sách";
+            this.name.Name = "name";
+            // 
+            // idCategory
+            // 
+            this.idCategory.DataPropertyName = "idCategory";
+            this.idCategory.HeaderText = "Mã sách";
+            this.idCategory.Name = "idCategory";
+            this.idCategory.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.idCategory.Width = 30;
+            // 
+            // releaseYear
+            // 
+            this.releaseYear.DataPropertyName = "releaseYear";
+            this.releaseYear.HeaderText = "Năm SX";
+            this.releaseYear.Name = "releaseYear";
+            this.releaseYear.Width = 40;
+            // 
+            // nameAuthor
+            // 
+            this.nameAuthor.DataPropertyName = "nameAuthor";
+            this.nameAuthor.HeaderText = "Tên tác giả";
+            this.nameAuthor.Name = "nameAuthor";
+            this.nameAuthor.Width = 110;
+            // 
+            // nameNXB
+            // 
+            this.nameNXB.DataPropertyName = "nameNXB";
+            this.nameNXB.HeaderText = "Tên NXB";
+            this.nameNXB.Name = "nameNXB";
+            this.nameNXB.Width = 80;
+            // 
+            // price
+            // 
+            this.price.DataPropertyName = "price";
+            this.price.HeaderText = "Giá";
+            this.price.Name = "price";
+            this.price.Width = 65;
+            // 
             // panel2
             // 
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.nbfBookListPrice);
             this.panel2.Controls.Add(this.txtBookListAuthor);
             this.panel2.Controls.Add(this.cbBookListIdCategory);
+            this.panel2.Controls.Add(this.label9);
+            this.panel2.Controls.Add(this.label8);
             this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.btfBookListDelete);
+            this.panel2.Controls.Add(this.txtPic);
+            this.panel2.Controls.Add(this.txtSl);
             this.panel2.Controls.Add(this.txtBookListName);
             this.panel2.Controls.Add(this.btfBookListChange);
             this.panel2.Controls.Add(this.btfBookListRefresh);
@@ -144,14 +202,14 @@
             0,
             -2147483648});
             this.nbfBookListPrice.Name = "nbfBookListPrice";
-            this.nbfBookListPrice.Size = new System.Drawing.Size(264, 20);
+            this.nbfBookListPrice.Size = new System.Drawing.Size(191, 20);
             this.nbfBookListPrice.TabIndex = 4;
             // 
             // txtBookListAuthor
             // 
             this.txtBookListAuthor.Location = new System.Drawing.Point(410, 36);
             this.txtBookListAuthor.Name = "txtBookListAuthor";
-            this.txtBookListAuthor.Size = new System.Drawing.Size(264, 20);
+            this.txtBookListAuthor.Size = new System.Drawing.Size(191, 20);
             this.txtBookListAuthor.TabIndex = 1;
             // 
             // cbBookListIdCategory
@@ -180,11 +238,25 @@
             this.btfBookListDelete.UseVisualStyleBackColor = true;
             this.btfBookListDelete.Click += new System.EventHandler(this.btfBookListDelete_Click);
             // 
+            // txtPic
+            // 
+            this.txtPic.Location = new System.Drawing.Point(607, 61);
+            this.txtPic.Name = "txtPic";
+            this.txtPic.Size = new System.Drawing.Size(76, 20);
+            this.txtPic.TabIndex = 1;
+            // 
+            // txtSl
+            // 
+            this.txtSl.Location = new System.Drawing.Point(643, 7);
+            this.txtSl.Name = "txtSl";
+            this.txtSl.Size = new System.Drawing.Size(40, 20);
+            this.txtSl.TabIndex = 1;
+            // 
             // txtBookListName
             // 
             this.txtBookListName.Location = new System.Drawing.Point(410, 7);
             this.txtBookListName.Name = "txtBookListName";
-            this.txtBookListName.Size = new System.Drawing.Size(264, 20);
+            this.txtBookListName.Size = new System.Drawing.Size(191, 20);
             this.txtBookListName.TabIndex = 1;
             // 
             // btfBookListChange
@@ -306,56 +378,23 @@
             this.mnfRentList.Name = "mnfRentList";
             this.mnfRentList.Size = new System.Drawing.Size(46, 20);
             this.mnfRentList.Text = "Home";
+            this.mnfRentList.Click += new System.EventHandler(this.mnfRentList_Click);
             // 
-            // id
+            // label8
             // 
-            this.id.DataPropertyName = "id";
-            this.id.HeaderText = "Mã";
-            this.id.Name = "id";
-            this.id.Width = 30;
+            this.label8.Location = new System.Drawing.Point(607, 7);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(30, 23);
+            this.label8.TabIndex = 0;
+            this.label8.Text = "SL";
             // 
-            // name
+            // label9
             // 
-            this.name.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.name.DataPropertyName = "name";
-            this.name.HeaderText = "Tên sách";
-            this.name.Name = "name";
-            // 
-            // idCategory
-            // 
-            this.idCategory.DataPropertyName = "idCategory";
-            this.idCategory.HeaderText = "Mã sách";
-            this.idCategory.Name = "idCategory";
-            this.idCategory.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.idCategory.Width = 30;
-            // 
-            // releaseYear
-            // 
-            this.releaseYear.DataPropertyName = "releaseYear";
-            this.releaseYear.HeaderText = "Năm SX";
-            this.releaseYear.Name = "releaseYear";
-            this.releaseYear.Width = 40;
-            // 
-            // nameAuthor
-            // 
-            this.nameAuthor.DataPropertyName = "nameAuthor";
-            this.nameAuthor.HeaderText = "Tên tác giả";
-            this.nameAuthor.Name = "nameAuthor";
-            this.nameAuthor.Width = 110;
-            // 
-            // nameNXB
-            // 
-            this.nameNXB.DataPropertyName = "nameNXB";
-            this.nameNXB.HeaderText = "Tên NXB";
-            this.nameNXB.Name = "nameNXB";
-            this.nameNXB.Width = 80;
-            // 
-            // price
-            // 
-            this.price.DataPropertyName = "price";
-            this.price.HeaderText = "Giá";
-            this.price.Name = "price";
-            this.price.Width = 65;
+            this.label9.Location = new System.Drawing.Point(607, 36);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(76, 23);
+            this.label9.TabIndex = 0;
+            this.label9.Text = "link";
             // 
             // fBookList
             // 
@@ -413,5 +452,9 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn nameAuthor;
         private System.Windows.Forms.DataGridViewTextBoxColumn nameNXB;
         private System.Windows.Forms.DataGridViewTextBoxColumn price;
+        private System.Windows.Forms.TextBox txtPic;
+        private System.Windows.Forms.TextBox txtSl;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label8;
     }
 }

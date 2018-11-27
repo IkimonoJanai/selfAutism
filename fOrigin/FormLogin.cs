@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using DemoQuanLyThuVien.DAO;
+using System.Threading;
 
 namespace DemoQuanLyThuVien
 {
@@ -15,6 +16,7 @@ namespace DemoQuanLyThuVien
         public FormLogin()
         {
             InitializeComponent();
+            //timer1.Start();
         }
 
         private void FormLogin_Load(object sender, EventArgs e)
@@ -40,7 +42,8 @@ namespace DemoQuanLyThuVien
 
             string userName = txtName.Text;
             string passWord = txtPassword.Text;
-
+            
+            
             if (Login(userName, passWord))
             {
                 Account loginAccountUser = AccountDAO.Instance.LoginByUsername(userName);
@@ -58,6 +61,7 @@ namespace DemoQuanLyThuVien
                     Properties.Settings.Default.UserName = txtName.Text;
                     Properties.Settings.Default.Save();
                 }
+                Thread.Sleep(500);
                 this.Hide();
                 f.ShowDialog();
                 this.Show();
@@ -82,5 +86,19 @@ namespace DemoQuanLyThuVien
         {
             return AccountDAO.Instance.Login(userName, passWord);
         }
+        private int numberOfPoints = 0;
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            int maxPoints = 3;
+            lb1.Text = "Loading" + new string('.', numberOfPoints);
+            numberOfPoints = (numberOfPoints + 1) % (maxPoints + 1);
+        }
+
+        //private void timer1_Tick(object sender, EventArgs e)
+        //{
+
+        //}
+
     }
 }

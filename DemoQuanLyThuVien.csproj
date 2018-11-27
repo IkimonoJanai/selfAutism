@@ -52,6 +52,7 @@
     <Compile Include="ButtonAdminShowList.Designer.cs">
       <DependentUpon>ButtonAdminShowList.cs</DependentUpon>
     </Compile>
+    <Compile Include="Class1.cs" />
     <Compile Include="DAO\BookDAO.cs" />
     <Compile Include="DAO\CategoryDAO.cs" />
     <Compile Include="Dragable.cs">
@@ -70,12 +71,6 @@
     </Compile>
     <Compile Include="fBookList\fBookList.Designer.cs">
       <DependentUpon>fBookList.cs</DependentUpon>
-    </Compile>
-    <Compile Include="fOrigin\fHomePage.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="fOrigin\fHomePage.Designer.cs">
-      <DependentUpon>fHomePage.cs</DependentUpon>
     </Compile>
     <Compile Include="fOrigin\FormAdminInfo.cs">
       <SubType>Form</SubType>
@@ -145,9 +140,6 @@
     <EmbeddedResource Include="fBookList\fBookList.resx">
       <DependentUpon>fBookList.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fOrigin\fHomePage.resx">
-      <DependentUpon>fHomePage.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="fOrigin\FormAdminInfo.resx">
       <DependentUpon>FormAdminInfo.cs</DependentUpon>
     </EmbeddedResource>
@@ -180,19 +172,19 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="app.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -276,6 +268,42 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\arrowUp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Sprite\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu-background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fail-background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu-button-background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu-button-background1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu-button-background2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu-button-background%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giaFixed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giaFixed30x30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fixed30x30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pause-overlay.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

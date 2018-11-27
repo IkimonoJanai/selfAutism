@@ -35,18 +35,19 @@
             this.button12 = new System.Windows.Forms.Button();
             this.MenuSlide = new System.Windows.Forms.Timer(this.components);
             this.picRun = new System.Windows.Forms.Timer(this.components);
-            this.picAdminScroll = new System.Windows.Forms.PictureBox();
-            this.pnGiaLaiNameAndMssv = new System.Windows.Forms.Panel();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.lbAdminName = new System.Windows.Forms.Label();
-            this.lbAdminMssv = new System.Windows.Forms.Label();
-            this.picBanhRang = new System.Windows.Forms.PictureBox();
-            this.pnGiaLaiMenu = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
+            this.banhRang = new System.Windows.Forms.Timer(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
+            this.pnGiaLaiMenu = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
+            this.pnGiaLaiNameAndMssv = new System.Windows.Forms.Panel();
+            this.picBanhRang = new System.Windows.Forms.PictureBox();
+            this.lbAdminMssv = new System.Windows.Forms.Label();
+            this.lbAdminName = new System.Windows.Forms.Label();
+            this.button11 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
+            this.picAdminScroll = new System.Windows.Forms.PictureBox();
             this.drawHinhThoi8 = new DemoQuanLyThuVien.DrawHinhThoi();
             this.drawHinhThoi7 = new DemoQuanLyThuVien.DrawHinhThoi();
             this.drawHinhThoi6 = new DemoQuanLyThuVien.DrawHinhThoi();
@@ -59,14 +60,14 @@
             this.drawHinhThoi2 = new DemoQuanLyThuVien.DrawHinhThoi();
             this.buttonAdminShowList2 = new DemoQuanLyThuVien.ButtonAdminShowList();
             this.buttonAdminShowList1 = new DemoQuanLyThuVien.ButtonAdminShowList();
-            this.banhRang = new System.Windows.Forms.Timer(this.components);
+            this.dragable1 = new DemoQuanLyThuVien.Dragable();
             this.panel9.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picAdminScroll)).BeginInit();
-            this.pnGiaLaiNameAndMssv.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picBanhRang)).BeginInit();
-            this.pnGiaLaiMenu.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.pnGiaLaiMenu.SuspendLayout();
+            this.pnGiaLaiNameAndMssv.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picBanhRang)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picAdminScroll)).BeginInit();
             this.SuspendLayout();
             // 
             // panel9
@@ -110,6 +111,7 @@
             this.button12.Text = "Chợ đen";
             this.button12.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button12.UseVisualStyleBackColor = false;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // MenuSlide
             // 
@@ -121,105 +123,6 @@
             this.picRun.Enabled = true;
             this.picRun.Interval = 3000;
             this.picRun.Tick += new System.EventHandler(this.picRun_Tick);
-            // 
-            // picAdminScroll
-            // 
-            this.picAdminScroll.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.picAdminScroll.Image = global::DemoQuanLyThuVien.Properties.Resources._11;
-            this.picAdminScroll.Location = new System.Drawing.Point(467, 6);
-            this.picAdminScroll.Name = "picAdminScroll";
-            this.picAdminScroll.Size = new System.Drawing.Size(190, 92);
-            this.picAdminScroll.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picAdminScroll.TabIndex = 12;
-            this.picAdminScroll.TabStop = false;
-            // 
-            // pnGiaLaiNameAndMssv
-            // 
-            this.pnGiaLaiNameAndMssv.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(241)))), ((int)(((byte)(241)))));
-            this.pnGiaLaiNameAndMssv.Controls.Add(this.picBanhRang);
-            this.pnGiaLaiNameAndMssv.Controls.Add(this.lbAdminMssv);
-            this.pnGiaLaiNameAndMssv.Controls.Add(this.lbAdminName);
-            this.pnGiaLaiNameAndMssv.Controls.Add(this.button11);
-            this.pnGiaLaiNameAndMssv.Controls.Add(this.button9);
-            this.pnGiaLaiNameAndMssv.Location = new System.Drawing.Point(148, 316);
-            this.pnGiaLaiNameAndMssv.Name = "pnGiaLaiNameAndMssv";
-            this.pnGiaLaiNameAndMssv.Size = new System.Drawing.Size(237, 63);
-            this.pnGiaLaiNameAndMssv.TabIndex = 8;
-            // 
-            // button9
-            // 
-            this.button9.BackgroundImage = global::DemoQuanLyThuVien.Properties.Resources.btAdd;
-            this.button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button9.Location = new System.Drawing.Point(163, 4);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(26, 22);
-            this.button9.TabIndex = 0;
-            this.button9.UseVisualStyleBackColor = true;
-            // 
-            // button11
-            // 
-            this.button11.BackgroundImage = global::DemoQuanLyThuVien.Properties.Resources.btPicMssv;
-            this.button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button11.Location = new System.Drawing.Point(146, 28);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(26, 22);
-            this.button11.TabIndex = 0;
-            this.button11.UseVisualStyleBackColor = true;
-            // 
-            // lbAdminName
-            // 
-            this.lbAdminName.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.lbAdminName.Location = new System.Drawing.Point(3, 5);
-            this.lbAdminName.Name = "lbAdminName";
-            this.lbAdminName.Size = new System.Drawing.Size(154, 23);
-            this.lbAdminName.TabIndex = 9;
-            this.lbAdminName.Text = "Nguyễn Minh Đức";
-            // 
-            // lbAdminMssv
-            // 
-            this.lbAdminMssv.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.lbAdminMssv.Location = new System.Drawing.Point(2, 29);
-            this.lbAdminMssv.Name = "lbAdminMssv";
-            this.lbAdminMssv.Size = new System.Drawing.Size(138, 23);
-            this.lbAdminMssv.TabIndex = 10;
-            this.lbAdminMssv.Text = "1651010045";
-            // 
-            // picBanhRang
-            // 
-            this.picBanhRang.BackgroundImage = global::DemoQuanLyThuVien.Properties.Resources.bg_btn_setting_material_normal1;
-            this.picBanhRang.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.picBanhRang.Location = new System.Drawing.Point(195, 26);
-            this.picBanhRang.Name = "picBanhRang";
-            this.picBanhRang.Size = new System.Drawing.Size(35, 35);
-            this.picBanhRang.TabIndex = 11;
-            this.picBanhRang.TabStop = false;
-            this.picBanhRang.Click += new System.EventHandler(this.picBanhRang_Click);
-            // 
-            // pnGiaLaiMenu
-            // 
-            this.pnGiaLaiMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(186)))), ((int)(((byte)(235)))));
-            this.pnGiaLaiMenu.Controls.Add(this.drawHinhThoi8);
-            this.pnGiaLaiMenu.Controls.Add(this.drawHinhThoi7);
-            this.pnGiaLaiMenu.Controls.Add(this.drawHinhThoi6);
-            this.pnGiaLaiMenu.Controls.Add(this.drawHinhThoi5);
-            this.pnGiaLaiMenu.Controls.Add(this.drawHinhThoi4);
-            this.pnGiaLaiMenu.Controls.Add(this.drawHinhThoi3);
-            this.pnGiaLaiMenu.Controls.Add(this.button2);
-            this.pnGiaLaiMenu.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnGiaLaiMenu.Location = new System.Drawing.Point(0, 419);
-            this.pnGiaLaiMenu.Name = "pnGiaLaiMenu";
-            this.pnGiaLaiMenu.Size = new System.Drawing.Size(794, 10);
-            this.pnGiaLaiMenu.TabIndex = 3;
-            // 
-            // button2
-            // 
-            this.button2.Dock = System.Windows.Forms.DockStyle.Left;
-            this.button2.Location = new System.Drawing.Point(0, 0);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(0, 10);
-            this.button2.TabIndex = 0;
-            this.button2.Text = "button1";
-            this.button2.UseVisualStyleBackColor = true;
             // 
             // panel1
             // 
@@ -268,6 +171,105 @@
             this.button1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // pnGiaLaiMenu
+            // 
+            this.pnGiaLaiMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(186)))), ((int)(((byte)(235)))));
+            this.pnGiaLaiMenu.Controls.Add(this.drawHinhThoi8);
+            this.pnGiaLaiMenu.Controls.Add(this.drawHinhThoi7);
+            this.pnGiaLaiMenu.Controls.Add(this.drawHinhThoi6);
+            this.pnGiaLaiMenu.Controls.Add(this.drawHinhThoi5);
+            this.pnGiaLaiMenu.Controls.Add(this.drawHinhThoi4);
+            this.pnGiaLaiMenu.Controls.Add(this.drawHinhThoi3);
+            this.pnGiaLaiMenu.Controls.Add(this.button2);
+            this.pnGiaLaiMenu.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnGiaLaiMenu.Location = new System.Drawing.Point(0, 419);
+            this.pnGiaLaiMenu.Name = "pnGiaLaiMenu";
+            this.pnGiaLaiMenu.Size = new System.Drawing.Size(794, 10);
+            this.pnGiaLaiMenu.TabIndex = 3;
+            // 
+            // button2
+            // 
+            this.button2.Dock = System.Windows.Forms.DockStyle.Left;
+            this.button2.Location = new System.Drawing.Point(0, 0);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(0, 10);
+            this.button2.TabIndex = 0;
+            this.button2.Text = "button1";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // pnGiaLaiNameAndMssv
+            // 
+            this.pnGiaLaiNameAndMssv.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(241)))), ((int)(((byte)(241)))));
+            this.pnGiaLaiNameAndMssv.Controls.Add(this.picBanhRang);
+            this.pnGiaLaiNameAndMssv.Controls.Add(this.lbAdminMssv);
+            this.pnGiaLaiNameAndMssv.Controls.Add(this.lbAdminName);
+            this.pnGiaLaiNameAndMssv.Controls.Add(this.button11);
+            this.pnGiaLaiNameAndMssv.Controls.Add(this.button9);
+            this.pnGiaLaiNameAndMssv.Location = new System.Drawing.Point(148, 316);
+            this.pnGiaLaiNameAndMssv.Name = "pnGiaLaiNameAndMssv";
+            this.pnGiaLaiNameAndMssv.Size = new System.Drawing.Size(237, 63);
+            this.pnGiaLaiNameAndMssv.TabIndex = 8;
+            // 
+            // picBanhRang
+            // 
+            this.picBanhRang.BackgroundImage = global::DemoQuanLyThuVien.Properties.Resources.bg_btn_setting_material_normal1;
+            this.picBanhRang.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.picBanhRang.Location = new System.Drawing.Point(195, 26);
+            this.picBanhRang.Name = "picBanhRang";
+            this.picBanhRang.Size = new System.Drawing.Size(35, 35);
+            this.picBanhRang.TabIndex = 11;
+            this.picBanhRang.TabStop = false;
+            this.picBanhRang.Click += new System.EventHandler(this.picBanhRang_Click);
+            // 
+            // lbAdminMssv
+            // 
+            this.lbAdminMssv.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.lbAdminMssv.Location = new System.Drawing.Point(2, 29);
+            this.lbAdminMssv.Name = "lbAdminMssv";
+            this.lbAdminMssv.Size = new System.Drawing.Size(138, 23);
+            this.lbAdminMssv.TabIndex = 10;
+            this.lbAdminMssv.Text = "1651010045";
+            // 
+            // lbAdminName
+            // 
+            this.lbAdminName.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.lbAdminName.Location = new System.Drawing.Point(3, 5);
+            this.lbAdminName.Name = "lbAdminName";
+            this.lbAdminName.Size = new System.Drawing.Size(154, 23);
+            this.lbAdminName.TabIndex = 9;
+            this.lbAdminName.Text = "Nguyễn Minh Đức";
+            // 
+            // button11
+            // 
+            this.button11.BackgroundImage = global::DemoQuanLyThuVien.Properties.Resources.btPicMssv;
+            this.button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button11.Location = new System.Drawing.Point(146, 28);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(26, 22);
+            this.button11.TabIndex = 0;
+            this.button11.UseVisualStyleBackColor = true;
+            // 
+            // button9
+            // 
+            this.button9.BackgroundImage = global::DemoQuanLyThuVien.Properties.Resources.btAdd;
+            this.button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button9.Location = new System.Drawing.Point(163, 4);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(26, 22);
+            this.button9.TabIndex = 0;
+            this.button9.UseVisualStyleBackColor = true;
+            // 
+            // picAdminScroll
+            // 
+            this.picAdminScroll.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.picAdminScroll.Image = global::DemoQuanLyThuVien.Properties.Resources._11;
+            this.picAdminScroll.Location = new System.Drawing.Point(115, 6);
+            this.picAdminScroll.Name = "picAdminScroll";
+            this.picAdminScroll.Size = new System.Drawing.Size(346, 290);
+            this.picAdminScroll.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picAdminScroll.TabIndex = 12;
+            this.picAdminScroll.TabStop = false;
             // 
             // drawHinhThoi8
             // 
@@ -438,6 +440,10 @@
             this.buttonAdminShowList1.TabIndex = 11;
             this.buttonAdminShowList1.Click += new System.EventHandler(this.buttonAdminShowList1_Click);
             // 
+            // dragable1
+            // 
+            this.dragable1.SelectControl = this.panel9;
+            // 
             // FormAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -450,12 +456,12 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Gia Lai\'s Hause";
             this.panel9.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.picAdminScroll)).EndInit();
-            this.pnGiaLaiNameAndMssv.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.picBanhRang)).EndInit();
-            this.pnGiaLaiMenu.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
+            this.pnGiaLaiMenu.ResumeLayout(false);
+            this.pnGiaLaiNameAndMssv.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.picBanhRang)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picAdminScroll)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -492,5 +498,6 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Timer banhRang;
+        private Dragable dragable1;
     }
 }

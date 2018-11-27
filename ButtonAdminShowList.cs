@@ -12,6 +12,7 @@ namespace DemoQuanLyThuVien
 {
     public partial class ButtonAdminShowList : UserControl
     {
+        public event EventHandler Admin_click;
         public ButtonAdminShowList()
         {
             InitializeComponent();
@@ -52,8 +53,39 @@ namespace DemoQuanLyThuVien
 
         private void button2_Click(object sender, EventArgs e)
         {
-            fRentList fRL = new fRentList();
-            fRL.ShowDialog();
+            //fRentList fRL = new fRentList();
+            //fRL.ShowDialog();
+
+            if(this.Admin_click == null)
+            this.Admin_click(this, e);
+            /*
+             foreach(Control c in this.Controls)
+            {
+                c.Click += new EventHandler(yourEvent_handler_click);
+            }
+
+            public void yourEvent_handler_click (object sender, EventArgs e)
+            {
+                //whatever you want your event handler to do
+            }
+             * 
+             * 
+             * 
+             public new event EventHandler Click {
+        add {
+            base.Click += value;
+            foreach (Control control in Controls) {
+                control.Click += value;
+            }
+        }
+        remove {
+            base.Click -= value;
+            foreach (Control control in Controls) {
+                control.Click -= value;
+            }
+        }
+    }
+             */
         }
 
 

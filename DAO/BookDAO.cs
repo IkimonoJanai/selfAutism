@@ -49,20 +49,37 @@ namespace DemoQuanLyThuVien.DAO
             return list;
         }
         //name , cateId , yearrl , nameAuthor , nameNXB , price
-        public bool InsertBook(string name, int cateId, int yearrl, string nameAuthor, string nameNXB, float price)
+        /*
+         public bool InsertBook(int cateId, string name, int SL , int yearrl, string nameAuthor, string nameNXB, float price , string Pic)
         {
-            string sql = string.Format("INSERT dbo.Book( name , idCategory , releaseYear , nameAuthor , nameNXB , price ) VALUES  ( N'{0}' , {1} , {2} , N'{3}' , N'{4}' , {5} )", name, cateId, yearrl, nameAuthor, nameNXB, price);
+            string sql = string.Format("INSERT dbo.Book( idCategory , name , quantity , releaseYear , nameAuthor , nameNXB , price , bookPic ) VALUES  ( {0} , N'{1}' , {2} , {3} , N'{4}' , N'{5}' , {6} , N'{7}' )", cateId, name, SL, yearrl, nameAuthor, nameNXB, price, Pic);
             int result = DataProvider.Instance.ExecuteNonQuery(sql);
 
             return  result > 0;
         }
 
-        public bool UpdateBook(int idBook ,string name, int cateId, int yearrl, string nameAuthor, string nameNXB, float price)
+        public bool UpdateBook(int idBook, int cateId, string name, int SL, int yearrl, string nameAuthor, string nameNXB, float price, string Pic)
         {
-            string sql = string.Format("UPDATE dbo.Book SET name = N'{0}' , idCategory = {1} , releaseYear = {2} , nameAuthor = N'{3}' , nameNXB = N'{4}', price = {5} WHERE id = {6} ", name, cateId, yearrl, nameAuthor, nameNXB, price ,idBook );
+            string sql = string.Format("UPDATE dbo.Book SET idCategory = {0} , name = N'{1}' , quantity = {2} , releaseYear = {3} , nameAuthor = N'{4}' , nameNXB = N'{5}' , price = {6} , bookPic = N'{7}' WHERE id = {8} ", cateId, name, SL, yearrl, nameAuthor, nameNXB, price, Pic );
             int result = DataProvider.Instance.ExecuteNonQuery(sql);
 
-            return result > 0;// dis me :v
+            return result > 0;
+        }
+         * */
+        public bool InsertBook(int cateId, string name, int SL, int yearrl, string nameAuthor, string nameNXB, float price, string Pic)
+        {
+            string sql = string.Format("INSERT dbo.Book( idCategory , name , quantity , releaseYear , nameAuthor , nameNXB , price , bookPic ) VALUES  ( {0} , N'{1}' , {2} , {3} , N'{4}' , N'{5}' , {6} , N'{7}' )", cateId, name, SL, yearrl, nameAuthor, nameNXB, price, Pic);
+            int result = DataProvider.Instance.ExecuteNonQuery(sql);
+
+            return result > 0;
+        }
+
+        public bool UpdateBook(int idBook, int cateId, string name, int SL, int yearrl, string nameAuthor, string nameNXB, float price, string Pic)
+        {
+            string sql = string.Format("UPDATE dbo.Book SET idCategory = {0} , name = N'{1}' , quantity = {2} , releaseYear = {3} , nameAuthor = N'{4}' , nameNXB = N'{5}' , price = {6} , bookPic = N'{7}' WHERE id = {8} ", cateId, name, SL, yearrl, nameAuthor, nameNXB, price, Pic);
+            int result = DataProvider.Instance.ExecuteNonQuery(sql);
+
+            return result > 0;
         }
         public bool DeleteBookById(int idFood)
         {

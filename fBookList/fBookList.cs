@@ -85,11 +85,13 @@ namespace DemoQuanLyThuVien
             string name = txtBookListName.Text;
             int cateId = (cbBookListIdCategory.SelectedItem as Category).id;
             int yearrl = int.Parse(txtBookListYear.Text);
+            int SL = int.Parse(txtSl.Text);
             string nameAuthor = txtBookListAuthor.Text;
             string nameNXB = txtBookListNameNXB.Text;
             float price = (float)nbfBookListPrice.Value;
-
-            if(BookDAO.Instance.InsertBook(name , cateId , yearrl , nameAuthor , nameNXB , price))
+            string Pic = txtPic.Text;
+            //int cateId, string name, int SL , int yearrl, string nameAuthor, string nameNXB, float price , string Pic
+            if (BookDAO.Instance.InsertBook(cateId, name, SL, yearrl, nameAuthor, nameNXB, price, Pic))
             {
                 MessageBox.Show("Đã thêm");
                 load();
@@ -105,13 +107,15 @@ namespace DemoQuanLyThuVien
             string name = txtBookListName.Text;
             int cateId = /*Convert.ToInt32( txtBookListId.Text)*/(cbBookListIdCategory.SelectedItem as Category).id;
             int yearrl = int.Parse(txtBookListYear.Text);
+            int SL = int.Parse(txtSl.Text);
             string nameAuthor = txtBookListAuthor.Text;
             string nameNXB = txtBookListNameNXB.Text;
             float price = (float)nbfBookListPrice.Value;
             int idBook = int.Parse(txtBookListId.Text);// convert.toint32(a.text)
-
+            string Pic = txtPic.Text;
             //MessageBox.Show(idBook.ToString());
-            if (BookDAO.Instance.UpdateBook(idBook, name, cateId, yearrl, nameAuthor, nameNXB, price))
+            //int idBook, int cateId, string name, int SL, int yearrl, string nameAuthor, string nameNXB, float price, string Pic
+            if (BookDAO.Instance.UpdateBook(idBook, cateId, name, SL, yearrl, nameAuthor, nameNXB, price, Pic))
             {
                 MessageBox.Show("Đã sửa");
                 load();
@@ -135,6 +139,11 @@ namespace DemoQuanLyThuVien
             {
                 MessageBox.Show("RIP", "Thông báo");
             }
+        }
+
+        private void mnfRentList_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
 
         //private event EventHandler updateBook;

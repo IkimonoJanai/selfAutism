@@ -123,6 +123,11 @@ namespace DemoQuanLyThuVien
 
         }
 
+        private void button12_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("It's just a prank bro!!");
+        }
+
 
         //public Image RotateImage(Image img , float rotateNum)
         //{

@@ -83,6 +83,16 @@ namespace DemoQuanLyThuVien.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _12 {
+            get {
+                object obj = ResourceManager.GetObject("12", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _21557581_914481685368156_1626043099622420229_n {
             get {
                 object obj = ResourceManager.GetObject("21557581_914481685368156_1626043099622420229_n", resourceCulture);
@@ -96,76 +106,6 @@ namespace DemoQuanLyThuVien.Properties {
         internal static System.Drawing.Bitmap _37740358_265002680945844_5831663752210022400_n {
             get {
                 object obj = ResourceManager.GetObject("37740358_265002680945844_5831663752210022400_n", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _41166776_281680885985415_7738645376416088064_n {
-            get {
-                object obj = ResourceManager.GetObject("41166776_281680885985415_7738645376416088064_n", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _41188570_281680922652078_5144838339152576512_n {
-            get {
-                object obj = ResourceManager.GetObject("41188570_281680922652078_5144838339152576512_n", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _41735555_2287812011494235_1807251920952229888_n {
-            get {
-                object obj = ResourceManager.GetObject("41735555_2287812011494235_1807251920952229888_n", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _42784809_1700631966731480_2749685054136385536_n {
-            get {
-                object obj = ResourceManager.GetObject("42784809_1700631966731480_2749685054136385536_n", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap arrow {
-            get {
-                object obj = ResourceManager.GetObject("arrow", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap arrow1 {
-            get {
-                object obj = ResourceManager.GetObject("arrow1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap arrowUp {
-            get {
-                object obj = ResourceManager.GetObject("arrowUp", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -283,9 +223,89 @@ namespace DemoQuanLyThuVien.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fail_background {
+            get {
+                object obj = ResourceManager.GetObject("fail-background", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fixed30x30 {
+            get {
+                object obj = ResourceManager.GetObject("fixed30x30", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap giaFixed30x30 {
+            get {
+                object obj = ResourceManager.GetObject("giaFixed30x30", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap menu_button_background {
+            get {
+                object obj = ResourceManager.GetObject("menu-button-background", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap menu_button_background_2x {
+            get {
+                object obj = ResourceManager.GetObject("menu-button-background@2x", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap menu_button_background1 {
+            get {
+                object obj = ResourceManager.GetObject("menu-button-background1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap menu_button_background2 {
+            get {
+                object obj = ResourceManager.GetObject("menu-button-background2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap my_studio_edit_icon {
             get {
                 object obj = ResourceManager.GetObject("my_studio_edit_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pause_overlay {
+            get {
+                object obj = ResourceManager.GetObject("pause-overlay", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

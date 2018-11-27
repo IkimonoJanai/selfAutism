@@ -12,7 +12,12 @@ namespace DemoQuanLyThuVien
     public partial class FormHome : Form
     {
         private Account loginAccountUser;
-
+        private int btnHeight05 = 50;
+        private int btnHeight075 = 75;
+        private int btnWidth05 = 350;
+        private int btnWidth075 = 525;
+        private bool isCollapsed = true;
+        private int btn8 = 0;
         public Account LoginAccountUser
         {
             get { return loginAccountUser; }
@@ -25,10 +30,12 @@ namespace DemoQuanLyThuVien
         {
             InitializeComponent();
             this.LoginAccountUser = acc;
+            button8.Height = btn8;
+
         }
         private void Main_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         #region Method
@@ -38,16 +45,75 @@ namespace DemoQuanLyThuVien
         #endregion
 
         #region Events
-
-        private void btRentList_Click(object sender, EventArgs e)
+        private void readMoreToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            fRentList fRL = new fRentList();
+            MessageBox.Show("This product belong to our work , please ask before show it in public!!!");
+        }
+        private void picBack_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+        private void mnAdminHause_Click(object sender, EventArgs e)
+        {
+            FormAdmin fA = new FormAdmin();
             this.Hide();
-            fRL.ShowDialog();
+            fA.ShowDialog();
             this.Show();
         }
-
-
+        private void button3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Chức năng này đang được phát triển");
+        }
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Chức năng này đang được phát triển");
+        }
+        private void button4_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Chức năng này đang được phát triển");
+        }
+        private void button5_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Chức năng này đang được phát triển");
+        }
+        private void button6_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Chức năng này đang được phát triển");
+        }
+        private void button8_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Chức năng này đang được phát triển");
+        }
+        private void button1_MouseEnter(object sender, EventArgs e)
+        {
+            this.button1.Height = btnHeight075;
+            this.button1.Width = btnWidth075;
+        }
+        private void button1_MouseLeave(object sender, EventArgs e)
+        {
+            this.button1.Height = btnHeight05;
+            this.button1.Width = btnWidth05;
+        }
+        private void btnAd1_MouseEnter(object sender, EventArgs e)
+        {
+            this.btnAd1.Height = btnHeight075;
+            this.btnAd1.Width = btnWidth075;
+        }
+        private void btnAd1_MouseLeave(object sender, EventArgs e)
+        {
+            this.btnAd1.Height = btnHeight05;
+            this.btnAd1.Width = btnWidth05;
+        }
+        private void btnAd2_MouseEnter(object sender, EventArgs e)
+        {
+            this.btnAd2.Height = btnHeight075;
+            this.btnAd2.Width = btnWidth075;
+        }
+        private void btnAd2_MouseLeave(object sender, EventArgs e)
+        {
+            this.btnAd2.Height = btnHeight05;
+            this.btnAd2.Width = btnWidth05;
+        }
         #endregion 
 
 
@@ -56,22 +122,60 @@ namespace DemoQuanLyThuVien
         {
             mnAdminHause.Enabled = Type == 1;
         }
-
-        private void btRent_Click(object sender, EventArgs e)
+        private int idSprite = 1;
+        private void SpriteAnimation()
         {
-            fRentBook fRB = new fRentBook();
-            this.Hide();
-            fRB.ShowDialog();
-            this.Show();
+            if(idSprite == 58)
+           
+                {
+                    idSprite = 1;
+                }
+                picBack.ImageLocation = string.Format(@"Sprite\{0}.png", idSprite);
+                idSprite++;
+            
+        
         }
 
-        private void mnAdminHause_Click(object sender, EventArgs e)
+        private void timerBack_Tick(object sender, EventArgs e)
         {
-            FormAdmin fA = new FormAdmin();
-            this.Hide();
-            fA.ShowDialog();
-            this.Show();
+            SpriteAnimation();
         }
+
+        private void timerCollapse_Tick(object sender, EventArgs e)
+        {          
+            if(isCollapsed)
+            {
+                pnDropDown.Height += 10;
+                button8.Height += 20;
+                if (pnDropDown.Height >= pnDropDown.MaximumSize.Height)
+                {
+                    timerCollapse.Stop();
+                    isCollapsed = false;
+                }
+            }
+            else
+            {
+                pnDropDown.Height -= 10;
+                button8.Height -= 20;
+                if (pnDropDown.Height <= pnDropDown.MinimumSize.Height)
+                {
+                    timerCollapse.Stop();
+                    isCollapsed = true;
+                }
+            }
+        }
+        private void btnDropdown_Click(object sender, EventArgs e)
+        {
+            timerCollapse.Start();
+        }
+
+        
+
+
+
+
+
+
 
         //#region Property
         //#endregion
