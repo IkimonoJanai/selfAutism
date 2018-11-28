@@ -264,9 +264,9 @@
             // 
             this.picAdminScroll.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.picAdminScroll.Image = global::DemoQuanLyThuVien.Properties.Resources._11;
-            this.picAdminScroll.Location = new System.Drawing.Point(115, 6);
+            this.picAdminScroll.Location = new System.Drawing.Point(467, 0);
             this.picAdminScroll.Name = "picAdminScroll";
-            this.picAdminScroll.Size = new System.Drawing.Size(346, 290);
+            this.picAdminScroll.Size = new System.Drawing.Size(190, 98);
             this.picAdminScroll.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picAdminScroll.TabIndex = 12;
             this.picAdminScroll.TabStop = false;
@@ -363,18 +363,19 @@
             this.buttonAdminShowList4.asd2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.buttonAdminShowList4.asd3 = System.Drawing.Color.White;
             this.buttonAdminShowList4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.buttonAdminShowList4.button = "Danh sách ABCXYZ";
+            this.buttonAdminShowList4.button = "Cập nhật sách";
             this.buttonAdminShowList4.buttonAdmin1 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.buttonAdminShowList4.img = ((System.Drawing.Image)(resources.GetObject("buttonAdminShowList4.img")));
             this.buttonAdminShowList4.Location = new System.Drawing.Point(467, 302);
             this.buttonAdminShowList4.Name = "buttonAdminShowList4";
             this.buttonAdminShowList4.Size = new System.Drawing.Size(308, 60);
             this.buttonAdminShowList4.TabIndex = 11;
+            this.buttonAdminShowList4.Admin_click += new System.EventHandler(this.buttonAdminShowList4_Admin_click);
             // 
             // drawHinhThoi1
             // 
             this.drawHinhThoi1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.drawHinhThoi1.BackgroundImage = global::DemoQuanLyThuVien.Properties.Resources.Saintquartz;
+            this.drawHinhThoi1.BackgroundImage = global::DemoQuanLyThuVien.Properties.Resources.PicAdmin1;
             this.drawHinhThoi1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.drawHinhThoi1.Location = new System.Drawing.Point(7, 236);
             this.drawHinhThoi1.Name = "drawHinhThoi1";
@@ -395,7 +396,7 @@
             this.buttonAdminShowList3.Name = "buttonAdminShowList3";
             this.buttonAdminShowList3.Size = new System.Drawing.Size(308, 60);
             this.buttonAdminShowList3.TabIndex = 11;
-            this.buttonAdminShowList3.Click += new System.EventHandler(this.buttonAdminShowList3_Click);
+            this.buttonAdminShowList3.Admin_click += new System.EventHandler(this.buttonAdminShowList3_Admin_click);
             // 
             // drawHinhThoi2
             // 
@@ -423,7 +424,7 @@
             this.buttonAdminShowList2.Name = "buttonAdminShowList2";
             this.buttonAdminShowList2.Size = new System.Drawing.Size(307, 60);
             this.buttonAdminShowList2.TabIndex = 11;
-            this.buttonAdminShowList2.Click += new System.EventHandler(this.buttonAdminShowList2_Click);
+            this.buttonAdminShowList2.Admin_click += new System.EventHandler(this.buttonAdminShowList2_Admin_click);
             // 
             // buttonAdminShowList1
             // 
@@ -438,7 +439,7 @@
             this.buttonAdminShowList1.Name = "buttonAdminShowList1";
             this.buttonAdminShowList1.Size = new System.Drawing.Size(308, 60);
             this.buttonAdminShowList1.TabIndex = 11;
-            this.buttonAdminShowList1.Click += new System.EventHandler(this.buttonAdminShowList1_Click);
+            this.buttonAdminShowList1.Admin_click += new System.EventHandler(this.buttonAdminShowList1_Admin_click);
             // 
             // dragable1
             // 

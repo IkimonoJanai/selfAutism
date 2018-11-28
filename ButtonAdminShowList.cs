@@ -56,7 +56,7 @@ namespace DemoQuanLyThuVien
             //fRentList fRL = new fRentList();
             //fRL.ShowDialog();
 
-            if(this.Admin_click == null)
+            if(this.Admin_click != null)
             this.Admin_click(this, e);
             /*
              foreach(Control c in this.Controls)

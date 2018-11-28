@@ -1,0 +1,14 @@
+C:\Users\nhan\Desktop\aaaaa\DemoQLTVcoopDanh-master\TestQLTV\bin\Debug\TestQLTV.dll
+C:\Users\nhan\Desktop\aaaaa\DemoQLTVcoopDanh-master\TestQLTV\bin\Debug\TestQLTV.pdb
+C:\Users\nhan\Desktop\aaaaa\DemoQLTVcoopDanh-master\TestQLTV\bin\Debug\DemoQuanLyThuVien.exe
+C:\Users\nhan\Desktop\aaaaa\DemoQLTVcoopDanh-master\TestQLTV\bin\Debug\DemoQuanLyThuVien.pdb
+C:\Users\nhan\Desktop\aaaaa\DemoQLTVcoopDanh-master\TestQLTV\obj\Debug\TestQLTV.csprojResolveAssemblyReference.cache
+C:\Users\nhan\Desktop\aaaaa\DemoQLTVcoopDanh-master\TestQLTV\obj\Debug\TestQLTV.dll
+C:\Users\nhan\Desktop\aaaaa\DemoQLTVcoopDanh-master\TestQLTV\obj\Debug\TestQLTV.pdb
+C:\Users\Beosama\Desktop\12h15Day21112018\DemoQLTVcoopDanh-master\TestQLTV\bin\Debug\TestQLTV.dll
+C:\Users\Beosama\Desktop\12h15Day21112018\DemoQLTVcoopDanh-master\TestQLTV\bin\Debug\TestQLTV.pdb
+C:\Users\Beosama\Desktop\12h15Day21112018\DemoQLTVcoopDanh-master\TestQLTV\bin\Debug\DemoQuanLyThuVien.exe
+C:\Users\Beosama\Desktop\12h15Day21112018\DemoQLTVcoopDanh-master\TestQLTV\bin\Debug\DemoQuanLyThuVien.pdb
+C:\Users\Beosama\Desktop\12h15Day21112018\DemoQLTVcoopDanh-master\TestQLTV\obj\Debug\TestQLTV.csprojResolveAssemblyReference.cache
+C:\Users\Beosama\Desktop\12h15Day21112018\DemoQLTVcoopDanh-master\TestQLTV\obj\Debug\TestQLTV.dll
+C:\Users\Beosama\Desktop\12h15Day21112018\DemoQLTVcoopDanh-master\TestQLTV\obj\Debug\TestQLTV.pdb

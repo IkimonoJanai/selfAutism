@@ -38,9 +38,11 @@ namespace DemoQuanLyThuVien
             txtBookListId.DataBindings.Add(new Binding("Text", dtgvfBookList.DataSource, "id", true , DataSourceUpdateMode.Never));
             txtBookListName.DataBindings.Add(new Binding("Text", dtgvfBookList.DataSource, "name", true, DataSourceUpdateMode.Never));
             txtBookListYear.DataBindings.Add(new Binding("Text", dtgvfBookList.DataSource, "releaseYear", true, DataSourceUpdateMode.Never));
+            txtSl.DataBindings.Add(new Binding("Text", dtgvfBookList.DataSource, "quantity", true, DataSourceUpdateMode.Never));
             txtBookListAuthor.DataBindings.Add(new Binding("Text", dtgvfBookList.DataSource, "nameAuthor", true, DataSourceUpdateMode.Never));
             txtBookListNameNXB.DataBindings.Add(new Binding("Text", dtgvfBookList.DataSource, "nameNXB", true, DataSourceUpdateMode.Never));
             nbfBookListPrice.DataBindings.Add(new Binding("Value", dtgvfBookList.DataSource, "price", true, DataSourceUpdateMode.Never));
+            txtPic.DataBindings.Add(new Binding("Text", dtgvfBookList.DataSource, "Pic", true, DataSourceUpdateMode.Never));
         }
         void  LoadCategoryBookIntoCombobox(ComboBox cb)
         {
@@ -132,7 +134,10 @@ namespace DemoQuanLyThuVien
 
             if (BookDAO.Instance.DeleteBookById(idBook))
             {
-                MessageBox.Show("OK");
+                /*if(*/MessageBox.Show("OK", "asd", MessageBoxButtons.OKCancel); /*!= System.Windows.Forms.DialogResult.OK)*/
+                /*{
+                    
+                }*/
                 load();
             }
             else

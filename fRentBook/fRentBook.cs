@@ -62,22 +62,22 @@ namespace DemoQuanLyThuVien
 
         private void btDmsManga_Click(object sender, EventArgs e)
         {
-            dtgvPickRentBook.DataSource = BookDAO.Instance.getBookById(2);
+            dtgvRentBook.DataSource = BookDAO.Instance.getBookById(2);
         }
 
         private void btDmsVH_Click(object sender, EventArgs e)
         {
-            dtgvPickRentBook.DataSource = BookDAO.Instance.getBookById(5);
+            dtgvRentBook.DataSource = BookDAO.Instance.getBookById(5);
         }
 
         private void btDmsDoujin_Click(object sender, EventArgs e)
         {
-            dtgvPickRentBook.DataSource = BookDAO.Instance.getBookById(4);
+            dtgvRentBook.DataSource = BookDAO.Instance.getBookById(4);
         }
 
         private void btDmsCNTT_Click(object sender, EventArgs e)
         {
-            dtgvPickRentBook.DataSource = BookDAO.Instance.getBookById(3);
+            dtgvRentBook.DataSource = BookDAO.Instance.getBookById(3);
         }
 
         void GetDataForDtgvPickRentBook()

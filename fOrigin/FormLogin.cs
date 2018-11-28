@@ -93,6 +93,7 @@ namespace DemoQuanLyThuVien
             int maxPoints = 3;
             lb1.Text = "Loading" + new string('.', numberOfPoints);
             numberOfPoints = (numberOfPoints + 1) % (maxPoints + 1);
+
         }
 
         //private void timer1_Tick(object sender, EventArgs e)

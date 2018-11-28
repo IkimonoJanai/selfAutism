@@ -42,30 +42,6 @@ namespace DemoQuanLyThuVien
             this.Close();
         }
 
-        private void buttonAdminShowList3_Click(object sender, EventArgs e)
-        {
-            fBookList fBL = new fBookList();
-            this.Hide();
-            fBL.ShowDialog();
-            this.Show();
-        }
-
-        private void buttonAdminShowList1_Click(object sender, EventArgs e)
-        {
-            fRentList fRL = new fRentList();
-            this.Hide();
-            fRL.ShowDialog();
-            this.Show();
-        }
-
-        private void buttonAdminShowList2_Click(object sender, EventArgs e)
-        {
-            fUserList fUL = new fUserList();
-            this.Hide();
-            fUL.ShowDialog();
-            this.Show();
-        }
-
         #endregion
 
         private void MenuSlide_Tick(object sender, EventArgs e)
@@ -120,12 +96,44 @@ namespace DemoQuanLyThuVien
 
         private void picBanhRang_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("It's just a prank bro!!");
         }
 
         private void button12_Click(object sender, EventArgs e)
         {
             MessageBox.Show("It's just a prank bro!!");
+        }
+
+        private void buttonAdminShowList1_Admin_click(object sender, EventArgs e)
+        {
+            fRentList fRL = new fRentList();
+            this.Hide();
+            fRL.ShowDialog();
+            this.Show();
+        }
+
+        private void buttonAdminShowList2_Admin_click(object sender, EventArgs e)
+        {
+            fUserList fUL = new fUserList();
+            this.Hide();
+            fUL.ShowDialog();
+            this.Show();
+        }
+
+        private void buttonAdminShowList3_Admin_click(object sender, EventArgs e)
+        {
+            fBookList fBL = new fBookList();
+            this.Hide();
+            fBL.ShowDialog();
+            this.Show();
+        }
+
+        private void buttonAdminShowList4_Admin_click(object sender, EventArgs e)
+        {
+            fBookList fBL = new fBookList();
+            this.Hide();
+            fBL.ShowDialog();
+            this.Show();
         }
 
 

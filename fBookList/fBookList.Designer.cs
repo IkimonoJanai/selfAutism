@@ -42,6 +42,8 @@
             this.nbfBookListPrice = new System.Windows.Forms.NumericUpDown();
             this.txtBookListAuthor = new System.Windows.Forms.TextBox();
             this.cbBookListIdCategory = new System.Windows.Forms.ComboBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.btfBookListDelete = new System.Windows.Forms.Button();
             this.txtPic = new System.Windows.Forms.TextBox();
@@ -61,8 +63,6 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.mnfRentList = new System.Windows.Forms.ToolStripMenuItem();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvfBookList)).BeginInit();
             this.panel2.SuspendLayout();
@@ -219,6 +219,22 @@
             this.cbBookListIdCategory.Name = "cbBookListIdCategory";
             this.cbBookListIdCategory.Size = new System.Drawing.Size(160, 21);
             this.cbBookListIdCategory.TabIndex = 3;
+            // 
+            // label9
+            // 
+            this.label9.Location = new System.Drawing.Point(607, 36);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(76, 23);
+            this.label9.TabIndex = 0;
+            this.label9.Text = "link";
+            // 
+            // label8
+            // 
+            this.label8.Location = new System.Drawing.Point(607, 7);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(30, 23);
+            this.label8.TabIndex = 0;
+            this.label8.Text = "SL";
             // 
             // label3
             // 
@@ -379,22 +395,6 @@
             this.mnfRentList.Size = new System.Drawing.Size(46, 20);
             this.mnfRentList.Text = "Home";
             this.mnfRentList.Click += new System.EventHandler(this.mnfRentList_Click);
-            // 
-            // label8
-            // 
-            this.label8.Location = new System.Drawing.Point(607, 7);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(30, 23);
-            this.label8.TabIndex = 0;
-            this.label8.Text = "SL";
-            // 
-            // label9
-            // 
-            this.label9.Location = new System.Drawing.Point(607, 36);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(76, 23);
-            this.label9.TabIndex = 0;
-            this.label9.Text = "link";
             // 
             // fBookList
             // 

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DemoQuanLyThuVien.fOrigin;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -33,11 +34,17 @@ namespace DemoQuanLyThuVien
             button8.Height = btn8;
 
         }
+
         private void Main_Load(object sender, EventArgs e)
         {
+            string str = "Welcome to Sài gòn 3/// 2020!!!";
+            label1.Text = str;
             
         }
+        private void timerRunText_Tick(object sender, EventArgs e)
+        {
 
+        }
         #region Method
         #endregion
 
@@ -168,6 +175,31 @@ namespace DemoQuanLyThuVien
         {
             timerCollapse.Start();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            fRentBook fRB = new fRentBook();
+            this.Hide();
+            fRB.ShowDialog();
+            this.Show();
+        }
+
+        private void btnAd1_Click(object sender, EventArgs e)
+        {
+            Advertiment ad = new Advertiment();
+            ad.Show();
+        }
+
+        private void btnAd2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Chức năng này hiện đang đươc phát triển");
+        }
+
+
+
+
+
+
 
         
 

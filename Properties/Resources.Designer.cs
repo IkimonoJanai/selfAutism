@@ -253,6 +253,16 @@ namespace DemoQuanLyThuVien.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap LN_Index_2 {
+            get {
+                object obj = ResourceManager.GetObject("LN_Index_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap menu_button_background {
             get {
                 object obj = ResourceManager.GetObject("menu-button-background", resourceCulture);
@@ -306,6 +316,26 @@ namespace DemoQuanLyThuVien.Properties {
         internal static System.Drawing.Bitmap pause_overlay {
             get {
                 object obj = ResourceManager.GetObject("pause-overlay", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PicAdmin {
+            get {
+                object obj = ResourceManager.GetObject("PicAdmin", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PicAdmin1 {
+            get {
+                object obj = ResourceManager.GetObject("PicAdmin1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -78,3 +78,4 @@ D:\New folder (2)\AllDownload\Desktop\demo\DemoQuanLyThuVien-Tester\autism\DemoQ
 D:\New folder (2)\AllDownload\Desktop\demo\DemoQuanLyThuVien-Tester\autism\DemoQuanLyThuVien\bin\Debug\DemoQuanLyThuVien.exe
 D:\New folder (2)\AllDownload\Desktop\demo\DemoQuanLyThuVien-Tester\autism\DemoQuanLyThuVien\bin\Debug\DemoQuanLyThuVien.pdb
 D:\New folder (2)\AllDownload\Desktop\demo\DemoQuanLyThuVien-Tester\autism\DemoQuanLyThuVien\obj\x86\Debug\DemoQuanLyThuVien.csprojResolveAssemblyReference.cache
+D:\New folder (2)\AllDownload\Desktop\demo\DemoQuanLyThuVien-Tester\autism\DemoQuanLyThuVien\obj\x86\Debug\DemoQuanLyThuVien.fOrigin.Advertiment.resources

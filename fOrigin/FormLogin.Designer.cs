@@ -111,15 +111,15 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(309, 35);
+            this.panel1.Size = new System.Drawing.Size(332, 35);
             this.panel1.TabIndex = 5;
             // 
             // lb1
             // 
-            this.lb1.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.lb1.Location = new System.Drawing.Point(209, 140);
+            this.lb1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.lb1.Location = new System.Drawing.Point(192, 140);
             this.lb1.Name = "lb1";
-            this.lb1.Size = new System.Drawing.Size(100, 23);
+            this.lb1.Size = new System.Drawing.Size(101, 37);
             this.lb1.TabIndex = 6;
             // 
             // timer1
@@ -135,7 +135,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(309, 159);
+            this.ClientSize = new System.Drawing.Size(332, 185);
             this.Controls.Add(this.lb1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.checkBox1);

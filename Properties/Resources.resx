@@ -118,77 +118,59 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="btPicMssv" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btPicMssv.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="fail-background" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fail-background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="setting_youtube" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\setting_youtube.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="menu-button-background" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\menu-button-background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="37740358_265002680945844_5831663752210022400_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\37740358_265002680945844_5831663752210022400_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="my_studio_edit_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\my_studio_edit_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="21557581_914481685368156_1626043099622420229_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\21557581_914481685368156_1626043099622420229_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="fixed30x30" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fixed30x30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bt_clip_rotate" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bt_clip_rotate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="menu-button-background@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\menu-button-background@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bg_btn_setting_material_normal1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bg_btn_setting_material_normal1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="book_ends_311495" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\Img\book_ends_311495.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\Img\11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bg_btn_setting_material_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bg_btn_setting_material_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="12" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\Sprite\1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="btAdd" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btAdd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bg_duration_selection" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bg_duration_selection.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="asdasdasd" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\asdasdasd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bg_addclip_editor" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bg_addclip_editor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Saintquartz" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Saintquartz.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\Img\1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bg_btn_add_sticker_draw_picture_normal1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bg_btn_add_sticker_draw_picture_normal1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="giaFixed30x30" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\giaFixed30x30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bg_btn_add_sticker_draw_picture_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bg_btn_add_sticker_draw_picture_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bg_btn_setting_material_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_btn_setting_material_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bt_clip_rotate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bt_clip_rotate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PicAdmin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PicAdmin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_duration_selection" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_duration_selection.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btPicMssv" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btPicMssv.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_addclip_editor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_addclip_editor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_btn_setting_material_normal1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_btn_setting_material_normal1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btAdd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btAdd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menu-button-background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu-button-background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="21557581_914481685368156_1626043099622420229_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\21557581_914481685368156_1626043099622420229_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="37740358_265002680945844_5831663752210022400_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\37740358_265002680945844_5831663752210022400_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="book_ends_311495" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Img\book_ends_311495.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Sprite\1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="setting_youtube" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\setting_youtube.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="menu-button-background2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\menu-button-background2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -196,7 +178,34 @@
   <data name="menu-button-background1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\menu-button-background1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="bg_btn_add_sticker_draw_picture_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_btn_add_sticker_draw_picture_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asdasdasd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asdasdasd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Img\1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Img\11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="pause-overlay" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pause-overlay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_btn_add_sticker_draw_picture_normal1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_btn_add_sticker_draw_picture_normal1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Saintquartz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Saintquartz.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="my_studio_edit_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\my_studio_edit_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LN_Index_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LN_Index_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PicAdmin1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PicAdmin1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

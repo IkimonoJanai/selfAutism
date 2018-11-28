@@ -54,7 +54,9 @@
     </Compile>
     <Compile Include="Class1.cs" />
     <Compile Include="DAO\BookDAO.cs" />
+    <Compile Include="DAO\BookStorageDAO.cs" />
     <Compile Include="DAO\CategoryDAO.cs" />
+    <Compile Include="DAO\rentListDAO.cs" />
     <Compile Include="Dragable.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -65,12 +67,20 @@
     <Compile Include="DAO\AccountDAO.cs" />
     <Compile Include="DAO\DataProvider.cs" />
     <Compile Include="DTO\Book.cs" />
+    <Compile Include="DTO\BookStorage.cs" />
     <Compile Include="DTO\Category.cs" />
+    <Compile Include="DTO\rentList.cs" />
     <Compile Include="fBookList\fBookList.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="fBookList\fBookList.Designer.cs">
       <DependentUpon>fBookList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fOrigin\Advertiment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fOrigin\Advertiment.Designer.cs">
+      <DependentUpon>Advertiment.cs</DependentUpon>
     </Compile>
     <Compile Include="fOrigin\FormAdminInfo.cs">
       <SubType>Form</SubType>
@@ -140,6 +150,9 @@
     <EmbeddedResource Include="fBookList\fBookList.resx">
       <DependentUpon>fBookList.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="fOrigin\Advertiment.resx">
+      <DependentUpon>Advertiment.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="fOrigin\FormAdminInfo.resx">
       <DependentUpon>FormAdminInfo.cs</DependentUpon>
     </EmbeddedResource>
@@ -196,6 +209,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="NewFolder1 - Copy %282%29 - Copy %283%29\" />
+    <Folder Include="TestCase\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\my_studio_edit_icon.png" />
@@ -304,6 +318,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\pause-overlay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LN_Index_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PicAdmin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PicAdmin1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

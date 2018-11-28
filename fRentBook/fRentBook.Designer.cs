@@ -67,8 +67,6 @@
             this.mnReturnfRentBook = new System.Windows.Forms.ToolStripMenuItem();
             this.discountToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nhậpMãToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.listView1 = new System.Windows.Forms.ListView();
-            this.panel5 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvRentBook)).BeginInit();
             this.panel2.SuspendLayout();
@@ -76,7 +74,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.dtgvPickRentBook)).BeginInit();
             this.panel4.SuspendLayout();
             this.menuStrip1.SuspendLayout();
-            this.panel5.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -86,7 +83,7 @@
             this.panel1.Controls.Add(this.dtgvRentBook);
             this.panel1.Location = new System.Drawing.Point(183, 196);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(543, 203);
+            this.panel1.Size = new System.Drawing.Size(734, 203);
             this.panel1.TabIndex = 0;
             // 
             // checkBox1
@@ -105,7 +102,7 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label3.Location = new System.Drawing.Point(0, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(543, 26);
+            this.label3.Size = new System.Drawing.Size(734, 26);
             this.label3.TabIndex = 0;
             this.label3.Text = "Danh mục sách";
             this.label3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -124,7 +121,7 @@
             this.dtgvRentBook.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.dtgvRentBook.Location = new System.Drawing.Point(0, 33);
             this.dtgvRentBook.Name = "dtgvRentBook";
-            this.dtgvRentBook.Size = new System.Drawing.Size(543, 170);
+            this.dtgvRentBook.Size = new System.Drawing.Size(734, 170);
             this.dtgvRentBook.TabIndex = 0;
             // 
             // id
@@ -278,7 +275,7 @@
             this.panel3.Controls.Add(this.label4);
             this.panel3.Location = new System.Drawing.Point(365, 29);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(361, 133);
+            this.panel3.Size = new System.Drawing.Size(552, 133);
             this.panel3.TabIndex = 0;
             // 
             // dtgvPickRentBook
@@ -286,7 +283,7 @@
             this.dtgvPickRentBook.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgvPickRentBook.Location = new System.Drawing.Point(5, 29);
             this.dtgvPickRentBook.Name = "dtgvPickRentBook";
-            this.dtgvPickRentBook.Size = new System.Drawing.Size(356, 101);
+            this.dtgvPickRentBook.Size = new System.Drawing.Size(544, 101);
             this.dtgvPickRentBook.TabIndex = 1;
             // 
             // label4
@@ -295,7 +292,7 @@
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label4.Location = new System.Drawing.Point(0, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(361, 26);
+            this.label4.Size = new System.Drawing.Size(552, 26);
             this.label4.TabIndex = 0;
             this.label4.Text = "Sách đã chọn";
             this.label4.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -417,7 +414,7 @@
             // 
             // btThanThanh
             // 
-            this.btThanThanh.Location = new System.Drawing.Point(546, 405);
+            this.btThanThanh.Location = new System.Drawing.Point(821, 405);
             this.btThanThanh.Name = "btThanThanh";
             this.btThanThanh.Size = new System.Drawing.Size(96, 25);
             this.btThanThanh.TabIndex = 0;
@@ -457,29 +454,11 @@
             this.nhậpMãToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
             this.nhậpMãToolStripMenuItem.Text = "Nhập mã";
             // 
-            // listView1
-            // 
-            this.listView1.GridLines = true;
-            this.listView1.Location = new System.Drawing.Point(14, 10);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(171, 372);
-            this.listView1.TabIndex = 2;
-            this.listView1.UseCompatibleStateImageBehavior = false;
-            // 
-            // panel5
-            // 
-            this.panel5.Controls.Add(this.listView1);
-            this.panel5.Location = new System.Drawing.Point(732, 29);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(197, 401);
-            this.panel5.TabIndex = 3;
-            // 
             // fRentBook
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(929, 442);
-            this.Controls.Add(this.panel5);
             this.Controls.Add(this.btThanThanh);
             this.Controls.Add(this.btfRBDeselect);
             this.Controls.Add(this.btConfirmRent);
@@ -503,7 +482,6 @@
             this.panel4.PerformLayout();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            this.panel5.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -550,7 +528,5 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dtgvPickRentBook;
         private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.ListView listView1;
-        private System.Windows.Forms.Panel panel5;
     }
 }

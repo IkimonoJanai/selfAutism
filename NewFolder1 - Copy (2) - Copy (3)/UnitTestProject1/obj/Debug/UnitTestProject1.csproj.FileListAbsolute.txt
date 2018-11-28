@@ -1,0 +1,7 @@
+D:\New folder (2)\AllDownload\Desktop\demo\DemoQuanLyThuVien-Tester\autism\DemoQuanLyThuVien\NewFolder1 - Copy (2) - Copy (3)\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+D:\New folder (2)\AllDownload\Desktop\demo\DemoQuanLyThuVien-Tester\autism\DemoQuanLyThuVien\NewFolder1 - Copy (2) - Copy (3)\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+D:\New folder (2)\AllDownload\Desktop\demo\DemoQuanLyThuVien-Tester\autism\DemoQuanLyThuVien\NewFolder1 - Copy (2) - Copy (3)\UnitTestProject1\bin\Debug\DemoQuanLyThuVien.exe
+D:\New folder (2)\AllDownload\Desktop\demo\DemoQuanLyThuVien-Tester\autism\DemoQuanLyThuVien\NewFolder1 - Copy (2) - Copy (3)\UnitTestProject1\bin\Debug\DemoQuanLyThuVien.pdb
+D:\New folder (2)\AllDownload\Desktop\demo\DemoQuanLyThuVien-Tester\autism\DemoQuanLyThuVien\NewFolder1 - Copy (2) - Copy (3)\UnitTestProject1\obj\Debug\UnitTestProject1.csprojResolveAssemblyReference.cache
+D:\New folder (2)\AllDownload\Desktop\demo\DemoQuanLyThuVien-Tester\autism\DemoQuanLyThuVien\NewFolder1 - Copy (2) - Copy (3)\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+D:\New folder (2)\AllDownload\Desktop\demo\DemoQuanLyThuVien-Tester\autism\DemoQuanLyThuVien\NewFolder1 - Copy (2) - Copy (3)\UnitTestProject1\obj\Debug\UnitTestProject1.pdb

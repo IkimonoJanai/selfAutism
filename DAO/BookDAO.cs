@@ -76,15 +76,15 @@ namespace DemoQuanLyThuVien.DAO
 
         public bool UpdateBook(int idBook, int cateId, string name, int SL, int yearrl, string nameAuthor, string nameNXB, float price, string Pic)
         {
-            string sql = string.Format("UPDATE dbo.Book SET idCategory = {0} , name = N'{1}' , quantity = {2} , releaseYear = {3} , nameAuthor = N'{4}' , nameNXB = N'{5}' , price = {6} , bookPic = N'{7}' WHERE id = {8} ", cateId, name, SL, yearrl, nameAuthor, nameNXB, price, Pic);
+            string sql = string.Format("UPDATE dbo.Book SET idCategory = {0} , name = N'{1}' , quantity = {2} , releaseYear = {3} , nameAuthor = N'{4}' , nameNXB = N'{5}' , price = {6} , bookPic = N'{7}' WHERE id = {8} ", cateId, name, SL, yearrl, nameAuthor, nameNXB, price, Pic ,idBook);
             int result = DataProvider.Instance.ExecuteNonQuery(sql);
 
             return result > 0;
         }
-        public bool DeleteBookById(int idFood)
+        public bool DeleteBookById(int idBook)
         {
             //billinfoDAO
-            string sql = string.Format("DELETE Book WHERE id = {0}", idFood);
+            string sql = string.Format("DELETE Book WHERE id = {0}", idBook);
             int result = DataProvider.Instance.ExecuteNonQuery(sql);
 
             return result > 0;
