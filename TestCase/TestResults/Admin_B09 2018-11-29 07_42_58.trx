@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="af7c0e57-dd77-4e35-a609-b0381488f3e8" name="Admin@B09 2018-11-29 07:42:58" runUser="B09\Admin" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="ebfb4528-13a7-4d7c-bd3a-5bfacb80b6dc">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Admin_B09 2018-11-29 07_42_58">
+      <DeploymentItem filename="C:\Users\Admin\Desktop\New folder\selfAutism\bin\Debug\DemoQuanLyThuVien.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2018-11-29T07:42:58.0506002+07:00" queuing="2018-11-29T07:42:58.1006002+07:00" start="2018-11-29T07:42:58.1046002+07:00" finish="2018-11-29T07:42:59.8016002+07:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="9" executed="9" passed="9" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestLoginAdmin" storage="c:\users\admin\desktop\new folder\testquanlythuvien\bin\debug\testquanlythuvien.dll" id="93667270-c9b8-f408-5064-f0bf2969bfbc">
+      <Execution id="b0b5558e-b6e3-4be4-bcd9-35f83afea604" />
+      <TestMethod codeBase="C:/Users/Admin/Desktop/New folder/TestQuanLyThuVien/bin/Debug/TestQuanLyThuVien.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestQuanLyThuVien.UnitTest1, TestQuanLyThuVien, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestLoginAdmin" />
+    </UnitTest>
+    <UnitTest name="TestLogin_TrongPass" storage="c:\users\admin\desktop\new folder\testquanlythuvien\bin\debug\testquanlythuvien.dll" id="24647c25-88d9-ccdb-ee7b-504abe963842">
+      <Execution id="315b54b4-e065-4146-af6e-aa8537f6f162" />
+      <TestMethod codeBase="C:/Users/Admin/Desktop/New folder/TestQuanLyThuVien/bin/Debug/TestQuanLyThuVien.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestQuanLyThuVien.UnitTest1, TestQuanLyThuVien, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestLogin_TrongPass" />
+    </UnitTest>
+    <UnitTest name="TestLogin_TrongUser" storage="c:\users\admin\desktop\new folder\testquanlythuvien\bin\debug\testquanlythuvien.dll" id="3223f646-315f-cd55-7d59-b3d2fc9fc3d8">
+      <Execution id="6e068f06-99d5-45ca-a66e-ea74249da3ff" />
+      <TestMethod codeBase="C:/Users/Admin/Desktop/New folder/TestQuanLyThuVien/bin/Debug/TestQuanLyThuVien.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestQuanLyThuVien.UnitTest1, TestQuanLyThuVien, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestLogin_TrongUser" />
+    </UnitTest>
+    <UnitTest name="TestLoginUser" storage="c:\users\admin\desktop\new folder\testquanlythuvien\bin\debug\testquanlythuvien.dll" id="154a0381-35dd-b578-d4cd-5e79b42d2bd3">
+      <Execution id="131e522f-5d4d-4838-9aae-40cff67306b8" />
+      <TestMethod codeBase="C:/Users/Admin/Desktop/New folder/TestQuanLyThuVien/bin/Debug/TestQuanLyThuVien.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestQuanLyThuVien.UnitTest1, TestQuanLyThuVien, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestLoginUser" />
+    </UnitTest>
+    <UnitTest name="TestLogin_SaiUserPass" storage="c:\users\admin\desktop\new folder\testquanlythuvien\bin\debug\testquanlythuvien.dll" id="ffb84c26-cac6-76d2-cd58-d7155cf83fa5">
+      <Execution id="bda020e5-3961-40fc-b306-a516a673a747" />
+      <TestMethod codeBase="C:/Users/Admin/Desktop/New folder/TestQuanLyThuVien/bin/Debug/TestQuanLyThuVien.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestQuanLyThuVien.UnitTest1, TestQuanLyThuVien, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestLogin_SaiUserPass" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="c:\users\admin\desktop\new folder\testquanlythuvien\bin\debug\testquanlythuvien.dll" id="cad1a846-b3d0-e2f0-2aae-914bc076dd6f">
+      <Execution id="afac0b7c-16d1-42e1-b28e-0ecdc53aa754" />
+      <TestMethod codeBase="C:/Users/Admin/Desktop/New folder/TestQuanLyThuVien/bin/Debug/TestQuanLyThuVien.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestQuanLyThuVien.UnitTest1, TestQuanLyThuVien, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="TestLogin_UserPassTrong" storage="c:\users\admin\desktop\new folder\testquanlythuvien\bin\debug\testquanlythuvien.dll" id="c15ea7c5-fa89-9b12-5eab-75484b4418a8">
+      <Execution id="0669280c-a8d9-44cb-80b2-95d9c718bf16" />
+      <TestMethod codeBase="C:/Users/Admin/Desktop/New folder/TestQuanLyThuVien/bin/Debug/TestQuanLyThuVien.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestQuanLyThuVien.UnitTest1, TestQuanLyThuVien, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestLogin_UserPassTrong" />
+    </UnitTest>
+    <UnitTest name="TestLogin_SaiUser" storage="c:\users\admin\desktop\new folder\testquanlythuvien\bin\debug\testquanlythuvien.dll" id="dbe72af9-54dc-6349-42f1-8bc49d19cb5f">
+      <Execution id="d5313c8d-a632-45b9-bf98-403b94a6b49e" />
+      <TestMethod codeBase="C:/Users/Admin/Desktop/New folder/TestQuanLyThuVien/bin/Debug/TestQuanLyThuVien.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestQuanLyThuVien.UnitTest1, TestQuanLyThuVien, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestLogin_SaiUser" />
+    </UnitTest>
+    <UnitTest name="TestLogin_SaiPass" storage="c:\users\admin\desktop\new folder\testquanlythuvien\bin\debug\testquanlythuvien.dll" id="b713b075-2577-92be-95d1-8b35cfbe28e1">
+      <Execution id="7b47d221-dca2-4e83-b47a-fadbf8a1456e" />
+      <TestMethod codeBase="C:/Users/Admin/Desktop/New folder/TestQuanLyThuVien/bin/Debug/TestQuanLyThuVien.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestQuanLyThuVien.UnitTest1, TestQuanLyThuVien, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestLogin_SaiPass" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="154a0381-35dd-b578-d4cd-5e79b42d2bd3" executionId="131e522f-5d4d-4838-9aae-40cff67306b8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="24647c25-88d9-ccdb-ee7b-504abe963842" executionId="315b54b4-e065-4146-af6e-aa8537f6f162" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3223f646-315f-cd55-7d59-b3d2fc9fc3d8" executionId="6e068f06-99d5-45ca-a66e-ea74249da3ff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="93667270-c9b8-f408-5064-f0bf2969bfbc" executionId="b0b5558e-b6e3-4be4-bcd9-35f83afea604" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b713b075-2577-92be-95d1-8b35cfbe28e1" executionId="7b47d221-dca2-4e83-b47a-fadbf8a1456e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c15ea7c5-fa89-9b12-5eab-75484b4418a8" executionId="0669280c-a8d9-44cb-80b2-95d9c718bf16" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cad1a846-b3d0-e2f0-2aae-914bc076dd6f" executionId="afac0b7c-16d1-42e1-b28e-0ecdc53aa754" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dbe72af9-54dc-6349-42f1-8bc49d19cb5f" executionId="d5313c8d-a632-45b9-bf98-403b94a6b49e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ffb84c26-cac6-76d2-cd58-d7155cf83fa5" executionId="bda020e5-3961-40fc-b306-a516a673a747" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="131e522f-5d4d-4838-9aae-40cff67306b8" testId="154a0381-35dd-b578-d4cd-5e79b42d2bd3" testName="TestLoginUser" computerName="B09" duration="00:00:00.0153432" startTime="2018-11-29T07:42:58.1126002+07:00" endTime="2018-11-29T07:42:58.2386002+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="131e522f-5d4d-4838-9aae-40cff67306b8">
+    </UnitTestResult>
+    <UnitTestResult executionId="315b54b4-e065-4146-af6e-aa8537f6f162" testId="24647c25-88d9-ccdb-ee7b-504abe963842" testName="TestLogin_TrongPass" computerName="B09" duration="00:00:00.0008779" startTime="2018-11-29T07:42:58.2416002+07:00" endTime="2018-11-29T07:42:58.2446002+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="315b54b4-e065-4146-af6e-aa8537f6f162">
+    </UnitTestResult>
+    <UnitTestResult executionId="6e068f06-99d5-45ca-a66e-ea74249da3ff" testId="3223f646-315f-cd55-7d59-b3d2fc9fc3d8" testName="TestLogin_TrongUser" computerName="B09" duration="00:00:00.0008244" startTime="2018-11-29T07:42:58.2476002+07:00" endTime="2018-11-29T07:42:58.2506002+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6e068f06-99d5-45ca-a66e-ea74249da3ff">
+    </UnitTestResult>
+    <UnitTestResult executionId="b0b5558e-b6e3-4be4-bcd9-35f83afea604" testId="93667270-c9b8-f408-5064-f0bf2969bfbc" testName="TestLoginAdmin" computerName="B09" duration="00:00:00.0007312" startTime="2018-11-29T07:42:58.2536002+07:00" endTime="2018-11-29T07:42:58.2556002+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b0b5558e-b6e3-4be4-bcd9-35f83afea604">
+    </UnitTestResult>
+    <UnitTestResult executionId="7b47d221-dca2-4e83-b47a-fadbf8a1456e" testId="b713b075-2577-92be-95d1-8b35cfbe28e1" testName="TestLogin_SaiPass" computerName="B09" duration="00:00:00.0007418" startTime="2018-11-29T07:42:58.2596002+07:00" endTime="2018-11-29T07:42:58.2616002+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7b47d221-dca2-4e83-b47a-fadbf8a1456e">
+    </UnitTestResult>
+    <UnitTestResult executionId="0669280c-a8d9-44cb-80b2-95d9c718bf16" testId="c15ea7c5-fa89-9b12-5eab-75484b4418a8" testName="TestLogin_UserPassTrong" computerName="B09" duration="00:00:00.0011413" startTime="2018-11-29T07:42:58.2656002+07:00" endTime="2018-11-29T07:42:58.2696002+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0669280c-a8d9-44cb-80b2-95d9c718bf16">
+    </UnitTestResult>
+    <UnitTestResult executionId="afac0b7c-16d1-42e1-b28e-0ecdc53aa754" testId="cad1a846-b3d0-e2f0-2aae-914bc076dd6f" testName="TestMethod1" computerName="B09" duration="00:00:00.0000796" startTime="2018-11-29T07:42:58.2736002+07:00" endTime="2018-11-29T07:42:58.2746002+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="afac0b7c-16d1-42e1-b28e-0ecdc53aa754">
+    </UnitTestResult>
+    <UnitTestResult executionId="d5313c8d-a632-45b9-bf98-403b94a6b49e" testId="dbe72af9-54dc-6349-42f1-8bc49d19cb5f" testName="TestLogin_SaiUser" computerName="B09" duration="00:00:00.0010629" startTime="2018-11-29T07:42:58.2786002+07:00" endTime="2018-11-29T07:42:58.2816002+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d5313c8d-a632-45b9-bf98-403b94a6b49e">
+    </UnitTestResult>
+    <UnitTestResult executionId="bda020e5-3961-40fc-b306-a516a673a747" testId="ffb84c26-cac6-76d2-cd58-d7155cf83fa5" testName="TestLogin_SaiUserPass" computerName="B09" duration="00:00:00.0009905" startTime="2018-11-29T07:42:58.2846002+07:00" endTime="2018-11-29T07:42:58.2876002+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bda020e5-3961-40fc-b306-a516a673a747">
+    </UnitTestResult>
+  </Results>
+</TestRun>

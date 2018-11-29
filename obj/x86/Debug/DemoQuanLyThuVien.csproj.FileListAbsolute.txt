@@ -79,3 +79,24 @@ D:\New folder (2)\AllDownload\Desktop\demo\DemoQuanLyThuVien-Tester\autism\DemoQ
 D:\New folder (2)\AllDownload\Desktop\demo\DemoQuanLyThuVien-Tester\autism\DemoQuanLyThuVien\bin\Debug\DemoQuanLyThuVien.pdb
 D:\New folder (2)\AllDownload\Desktop\demo\DemoQuanLyThuVien-Tester\autism\DemoQuanLyThuVien\obj\x86\Debug\DemoQuanLyThuVien.csprojResolveAssemblyReference.cache
 D:\New folder (2)\AllDownload\Desktop\demo\DemoQuanLyThuVien-Tester\autism\DemoQuanLyThuVien\obj\x86\Debug\DemoQuanLyThuVien.fOrigin.Advertiment.resources
+C:\Users\Admin\Desktop\New folder\selfAutism\bin\Debug\DemoQuanLyThuVien.exe.config
+C:\Users\Admin\Desktop\New folder\selfAutism\obj\x86\Debug\DemoQuanLyThuVien.exe
+C:\Users\Admin\Desktop\New folder\selfAutism\obj\x86\Debug\DemoQuanLyThuVien.pdb
+C:\Users\Admin\Desktop\New folder\selfAutism\bin\Debug\DemoQuanLyThuVien.exe
+C:\Users\Admin\Desktop\New folder\selfAutism\bin\Debug\DemoQuanLyThuVien.pdb
+C:\Users\Admin\Desktop\New folder\selfAutism\obj\x86\Debug\DemoQuanLyThuVien.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\New folder\selfAutism\obj\x86\Debug\DemoQuanLyThuVien.ButtonAdminShowList.resources
+C:\Users\Admin\Desktop\New folder\selfAutism\obj\x86\Debug\DemoQuanLyThuVien.fBookList.resources
+C:\Users\Admin\Desktop\New folder\selfAutism\obj\x86\Debug\DemoQuanLyThuVien.fOrigin.Advertiment.resources
+C:\Users\Admin\Desktop\New folder\selfAutism\obj\x86\Debug\DemoQuanLyThuVien.fOrigin.FormAdminInfo.resources
+C:\Users\Admin\Desktop\New folder\selfAutism\obj\x86\Debug\DemoQuanLyThuVien.fRentBookBill.resources
+C:\Users\Admin\Desktop\New folder\selfAutism\obj\x86\Debug\DemoQuanLyThuVien.FormAdmin.resources
+C:\Users\Admin\Desktop\New folder\selfAutism\obj\x86\Debug\DemoQuanLyThuVien.fRentBook.resources
+C:\Users\Admin\Desktop\New folder\selfAutism\obj\x86\Debug\DemoQuanLyThuVien.fRentBookLogin.resources
+C:\Users\Admin\Desktop\New folder\selfAutism\obj\x86\Debug\DemoQuanLyThuVien.fRentBookSignUp.resources
+C:\Users\Admin\Desktop\New folder\selfAutism\obj\x86\Debug\DemoQuanLyThuVien.fRentList.resources
+C:\Users\Admin\Desktop\New folder\selfAutism\obj\x86\Debug\DemoQuanLyThuVien.fUserList.resources
+C:\Users\Admin\Desktop\New folder\selfAutism\obj\x86\Debug\DemoQuanLyThuVien.FormHome.resources
+C:\Users\Admin\Desktop\New folder\selfAutism\obj\x86\Debug\DemoQuanLyThuVien.FormLogin.resources
+C:\Users\Admin\Desktop\New folder\selfAutism\obj\x86\Debug\DemoQuanLyThuVien.Properties.Resources.resources
+C:\Users\Admin\Desktop\New folder\selfAutism\obj\x86\Debug\DemoQuanLyThuVien.csproj.GenerateResource.Cache
